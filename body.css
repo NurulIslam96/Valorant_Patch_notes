@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+}
+#date{
+    margin-left: 238px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+#updates{
+    text-align: top;
+}
+.hover-underline {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.25s ease;
+    color: red;
+    display: inline-block;
+  }
+  
+.hover-underline:hover {
+    text-decoration: underline solid Currentcolor;
+  }
